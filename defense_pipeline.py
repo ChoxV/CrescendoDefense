@@ -1,6 +1,6 @@
 import ollama 
 class CrescendoDefensePipeline:
-    def __init__(self, model_name = "llama3.1:8b"):
+    def __init__(self, model_name = "llama3.2:3b"):
         self.model_name = model_name 
         self.history = []
 
